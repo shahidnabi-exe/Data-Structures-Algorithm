@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+ // Node class 
 class Node {
     
     public:
@@ -19,10 +20,10 @@ class Node {
 };
 
 Node * root;
-
+    //  insert function to add a Node in BST
 Node * insertTree(Node * root, int val){
     if (root == NULL){
-        return new Node(val);
+        return new Node(val);      // return new node as Root 
     }
 
     else if (val < root -> data){
