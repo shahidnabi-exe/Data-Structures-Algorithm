@@ -43,6 +43,7 @@ Node * insertTree(Node * root, int val){
     return root;
     
 }
-int main(){
+int main()
+{
     
 }
