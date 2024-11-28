@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
- // Node class 
+//  * Definition for a binary tree node.
 class Node {
     
     public:
